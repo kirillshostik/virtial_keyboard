@@ -1,0 +1,33 @@
+{
+  "name": "virtual-keybord",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000v\u0000i\u0000r\u0000t\u0000i\u0000a\u0000l\u0000_\u0000k\u0000e\u0000y\u0000b\u0000o\u0000r\u0000d\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirillshostik/virtial_keybord.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirillshostik/virtial_keybord/issues"
+  },
+  "homepage": "https://github.com/kirillshostik/virtial_keybord#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "eslint": "^8.15.0",
+    "eslint-webpack-plugin": "^3.1.1",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
