@@ -1,0 +1,62 @@
+@import './../node_modules/normalize.css/normalize.css';
+
+html, body {
+    height: 100%;
+  }
+
+.wrapper {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(186deg,
+            rgba(247, 0, 179, 0.2440223265229986) 0%,
+            rgba(84, 9, 121, 0.373235809669066) 35%,
+            rgba(0, 212, 255, 0.4013256973095154) 100%);
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.textarea_input {
+    max-width: 712px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    min-height: 80px;
+}
+
+.keyboard_container {
+    margin: 40px auto;
+    width: 712px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.key {
+    background-color: #fff;
+    min-width: 40px;
+    box-sizing: border-box;
+    height: 40px;
+
+    &:hover {
+        background-color: rgb(232, 232, 232);
+    }
+}
+
+.hover {
+    background-color: rgb(232, 232, 232);
+}
+
+.wide {
+    width: 88px;
+}
+
+.spacebar {
+    width: 328px;
+}
